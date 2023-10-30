@@ -26,6 +26,17 @@ Algoritmo Series
 				Finpara
 		FinSi
 		Si opcion = 3 Entonces
+			Definir a, b, d, n Como Entero;
+			Escribir "Ingresa el número de terminos que desea saber";
+			Leer n;
+			a<-0;
+			b<-1;
+			para c<-1 Hasta n Hacer
+				Escribir Sin Saltar a, " ";
+				d<-a+b;
+				a<-b;
+				b<-d;
+			FinPara
 		FinSi
 		Si opcion = 4 Entonces
 			definir fac como entero;
