@@ -14,7 +14,7 @@ Algoritmo NombreVacio
 			Escribir "HAS INGRESADO EL NOMBRE CORRECTO!!!";
 		FinSi
 		
-	Hasta Que Longitud(nombre) > 0;
+	Hasta Que Longitud(nombre) > 2;
 
 	
 FinAlgoritmo
